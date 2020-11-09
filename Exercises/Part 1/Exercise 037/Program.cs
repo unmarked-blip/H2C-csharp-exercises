@@ -7,7 +7,27 @@ namespace exercise_37
     public static void Main(string[] args)
     {
       int sum = 0;
-      // Write your code here:
+ 
+while (true) 
+{
+    Console.WriteLine("Give a number");
+
+    int input1 = Convert.ToInt32(Console.ReadLine());
+
+    if (input1 == 0) 
+    {
+        Console.WriteLine("Total amount of numbers: " + sum);
+        break;
+    }
+
+    else 
+    {
+        sum = (sum + 1);
+    }
+
+   
+    
+}
 
     }
   }
