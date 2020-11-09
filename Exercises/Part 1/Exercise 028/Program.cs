@@ -6,7 +6,22 @@ namespace exercise_28
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+
+     Console.Write("How old are you? ");
+
+    string firstNumber = Console.ReadLine();
+
+    int firstValue = Convert.ToInt32(firstNumber);
+
+        if (firstValue >= 18) 
+{
+        Console.WriteLine("You're an adult.");
+}
+
+        else
+{
+        Console.WriteLine("You're underage.");
+}
 
     }
   }
