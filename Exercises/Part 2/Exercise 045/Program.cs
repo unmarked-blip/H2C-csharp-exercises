@@ -7,7 +7,19 @@ namespace exercise_45
     public static void Main(string[] args)
     {
 
-      // Write your code here:
+    Console.WriteLine("Give a number: ");
+
+    int input1 = Convert.ToInt32(Console.ReadLine());
+
+    int loopCount = 0;
+
+    while (loopCount <= input1)
+    {
+        Console.WriteLine(loopCount);
+        loopCount = (loopCount + 1);
+    }
+
+    
 
     }
   }
