@@ -6,12 +6,25 @@ namespace exercise_51
   {
     public static void Main(String[] args)
     {
-      // Call your method here:
+     Console.WriteLine("To which number?");
+
+    int input1 = Convert.ToInt32(Console.ReadLine());
+
+    PrintUntilNumber(input1);  
 
 
     }
 
-    // Write your method here:
+   public static void PrintUntilNumber(int input1) 
+    {
+            int loopCount = 1;
+            while (loopCount <= input1)
+            {
+            Console.WriteLine(loopCount);
+
+            loopCount++;
+            }
+    }
 
   }
 }
