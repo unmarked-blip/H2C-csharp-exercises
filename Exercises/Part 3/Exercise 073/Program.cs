@@ -18,6 +18,16 @@ namespace exercise_73
         list.Add(input);
       }
 
+      int sum = 0;
+
+      foreach(int input in list)
+                {
+                    sum = sum + input;
+                }
+
+    Console.WriteLine("The sum of the numbers is: " + sum );
+
     }
   }
+
 }
