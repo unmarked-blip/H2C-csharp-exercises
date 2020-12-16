@@ -18,6 +18,20 @@ namespace exercise_69
         list.Add(input);
       }
 
+    Console.WriteLine("From where?");
+
+    int start = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine("To where?");
+
+    int end = Convert.ToInt32(Console.ReadLine());
+
+    while (start <= end)
+                {
+                    Console.WriteLine(list[start-1]);
+                    start = start + 1;
+                }
+
     }
   }
 }
