@@ -24,22 +24,16 @@ namespace exercise_71
 
     int index = list.IndexOf(input1);
 
-    for (int i = 0; i < list.Count; i++)
-                {
-                    int number = list[i];
+        for (int i = 0; i < list.Count; i++)
+            {
+                int number = list[i];
                         
-                        if (input1 == number)
-                            {
-                                Console.WriteLine(input1 + " is at index: " + i);
-                            }
-                }
-
-
-    // if (list.Contains(input1))
-       // {
-         //   Console.WriteLine(input1 + " is at index: ");
-        // }
-
+                    if (input1 == number)
+                        {
+                            Console.WriteLine(input1 + " is at index: " + i);
+                        }
+            }
+        
     }
   }
 }
