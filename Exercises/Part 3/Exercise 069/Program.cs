@@ -28,9 +28,16 @@ namespace exercise_69
 
     while (start <= end)
                 {
-                    Console.WriteLine(list[start-1]);
+                    
+                    if (list.Contains(start))
+
+                        {
+                            Console.WriteLine(start);
+                        }   
+                        
                     start = start + 1;
                 }
+                
 
     }
   }
