@@ -18,6 +18,10 @@ namespace exercise_66
         list.Add(input);
       }
 
+      int values = list.Count;
+
+      Console.WriteLine(list[values-1]);
+
     }
   }
 }
